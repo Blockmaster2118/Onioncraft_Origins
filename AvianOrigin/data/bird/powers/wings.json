@@ -1,0 +1,6 @@
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "name": "Eagle Wings",
+    "description": "Your avian half grants you the wings of an eagle."
+  }

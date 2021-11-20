@@ -1,0 +1,28 @@
+{
+		"type": "origins:fire_projectile",
+		"entity_type": "minecraft:spectral_arrow",
+		"cooldown": 50,
+		"count": 3,
+		"divergence": 2,
+		"speed": 3,
+		"hud_render": {
+			"should_render": false
+		},
+		"tag": "{pickup:0b}",
+		"key": {
+			"key": "key.attack",
+			"continuous": true
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "bird:bows"
+				} 
+			}
+		},
+		"name": "Spectral Shot",
+		"description": "With a bow you have the ability to shoot 3 arrows glowing with energy"
+	}

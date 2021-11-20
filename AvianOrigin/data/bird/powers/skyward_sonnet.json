@@ -1,0 +1,42 @@
+{
+	"type": "origins:multiple",
+	"burst": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "effect give @e[distance=..9] minecraft:levitation 3 10"
+				},
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "effect give @e[distance=..9] minecraft:slow_falling 6 1"
+				},
+				{
+                	"type": "origins:execute_command",
+					"permission_level": 4,
+                	"command": "function ventiskill:circleventi3"
+            	},
+				{
+					"type": "origins:execute_command",
+					"permission_level": 4,
+					"command": "function ventiskill:circleventi4"
+				}
+			]
+		},
+		"cooldown": 200,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+			"bar_index": 8
+		},
+		"key": {
+			"key": "key.origins.primary_active"
+		}
+	},
+	"name": "Skyward Accent",
+	"description": "Cast using a bit of wind magic and use the gusts to ascend"
+}

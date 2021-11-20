@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"bird:skyward_sonnet",
+		"bird:aerial_motion",
+		"bird:dayspeed",
+		"bird:no_shield",
+		"bird:spliting_gale",
+		"bird:feather_shot",
+		"bird:less",
+		"bird:sleep",
+		"bird:wings"
+	],
+	"icon": "minecraft:feather",
+	"order": 10,
+	"impact": 3,
+	"name": "Spliced Avian",
+	"description": "A knight from the fallen kingdom of avians, with the power and hope of all your lost companions"
+}

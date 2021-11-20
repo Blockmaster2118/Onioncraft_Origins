@@ -1,0 +1,18 @@
+{
+"type":"origins:stacking_status_effect",
+"name":"Vitamin D",
+"description":"The sunlight is good for an avian and it grants you speed",
+"min_stacks": 0,
+"max_stacks": 2,
+"duration_per_stack": 200,
+"effects": 
+    {
+        "effect": "minecraft:speed",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    },
+"condition":{
+    "type":"origins:daytime"
+    }
+} 
