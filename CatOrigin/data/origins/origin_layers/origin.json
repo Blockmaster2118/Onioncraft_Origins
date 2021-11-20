@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "origins": [
+    "cat:cat_origin",
+    "cat:cat_origin_human"
+  ]
+}

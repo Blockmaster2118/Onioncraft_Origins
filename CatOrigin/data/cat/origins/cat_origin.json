@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"cat:transformback",
+		"cat:catsize",
+		"cat:pounce",
+		"cat:velocity",
+		"cat:strength",
+		"cat:climbing",
+		"cat:no_fall",
+		"cat:neutral_mobs",
+		"cat:life_steal",
+		"cat:bigfist"
+	],
+	"icon": "minecraft:red_wool",
+	"order": 10,
+	"impact": 3,
+	"unchoosable": true,
+	"name": "Beast Form",
+	"description": "The form of the true werebeast, let the monster inside out, control it."
+}

@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"cat:transform",
+        "cat:cat_claws"
+	],
+	"icon": "minecraft:light_gray_wool",
+	"order": 10,
+	"impact": 3,
+	"name": "Feral Werecat",
+	"description": "Cursed with the werebeast sickness, you have a beast living inside of you. It is controllable at day, but at night the beast roams free..."
+}

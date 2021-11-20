@@ -1,0 +1,21 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+  "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:strength",
+      "duration": 360, 
+      "amplifier": 1,
+      "show_particles" : false,
+      "show_icon" : false 
+    }
+  },
+  "condition": {
+    "type": "origins:daytime",
+    "inverted": true
+  },
+  "cooldown": 20000,
+  "interval": 20,
+  "name": "Claws",
+  "description": "Your claws hurt more than fists, you do more damage."
+}

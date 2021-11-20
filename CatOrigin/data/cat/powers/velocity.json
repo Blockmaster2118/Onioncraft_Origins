@@ -1,0 +1,19 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 40,
+            "amplifier": 1,
+            "show_particles" : false,
+            "show_icon" : false 
+        }
+    },
+    "condition": {
+        "type": "origins:daytime",
+        "inverted": true
+    },
+    "interval": 20,
+    "hidden": true
+}
