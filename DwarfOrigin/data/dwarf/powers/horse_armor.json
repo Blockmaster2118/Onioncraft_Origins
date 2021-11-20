@@ -1,0 +1,74 @@
+{
+	"type": "origins:multiple",
+	"iron_horse_armor": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "origins:horse_armor_iron_craft_shaper",
+			"pattern": [
+				"  #",
+				"#X#",
+				"# #"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:iron_ingot"
+				},
+				"X": {
+					"item": "minecraft:saddle"
+				}
+			},
+			"result": {
+				"item": "minecraft:iron_horse_armor"
+			}
+		}
+	},
+	"gold_horse_armor": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "origins:horse_armor_gold_craft_shaper",
+			"pattern": [
+				"  #",
+				"#X#",
+				"# #"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:gold_ingot"
+				},
+				"X": {
+					"item": "minecraft:saddle"
+				}
+			},
+			"result": {
+				"item": "minecraft:golden_horse_armor"
+			}
+		}
+	},
+	"diamond_horse_armor": {
+		"type": "origins:recipe",
+		"recipe": {
+			"type": "minecraft:crafting_shaped",
+			"id": "origins:horse_armor_diamond_craft_shaper",
+			"pattern": [
+				"  #",
+				"#X#",
+				"# #"
+			],
+			"key": {
+				"#": {
+					"item": "minecraft:diamond"
+				},
+				"X": {
+					"item": "minecraft:saddle"
+				}
+			},
+			"result": {
+				"item": "minecraft:diamond_horse_armor"
+			}
+		}
+	},
+	"name": "Horse Armor Crafting",
+	"description": "You can craft horse armor (The corresponding material along the right column, in the middle-left slot and bottom-left corner, and a saddle in the middle)"
+}

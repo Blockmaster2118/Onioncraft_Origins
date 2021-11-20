@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"dwarf:size",
+		"dwarf:summon",
+		"dwarf:neutral_mobs",
+		"dwarf:horse_armor",
+		"dwarf:saddle",
+		"dwarf:effects",
+		"dwarf:repair",
+		"dwarf:mech",
+		"dwarf:charge",
+		"dwarf:recharge",
+		"dwarf:craft"
+	],
+	"icon": "minecraft:iron_pickaxe",
+	"order": 10,
+	"impact": 3,
+	"name": "Dwarf Artisan ",
+	"description": "A master craftsman and engineer with the knowledge that was lost by humans long ago."
+}

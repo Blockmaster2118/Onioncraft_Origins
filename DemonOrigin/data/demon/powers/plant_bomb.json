@@ -1,0 +1,53 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type":"origins:and",
+        "actions": [
+          {
+            "type":"origins:execute_command",
+            "command":"playsound minecraft:entity.creeper.primed ambient @a ~ ~ ~ 1"
+          },
+          {
+            "type":"origins:execute_command",
+            "command":"particle smoke ~ ~ ~"
+          },
+          {
+            "type": "origins:delay",
+            "ticks": 60,
+            "action": {
+              "type":"origins:and",
+              "actions": [
+                {
+                  "type":"origins:execute_command",
+                  "command":"playsound minecraft:entity.generic.explode ambient @a ~ ~ ~ 1"
+                },
+                {
+                  "type":"origins:execute_command",
+                  "command":"particle explosion ~ ~ ~"
+                },
+                {
+                  "type":"origins:execute_command",
+                  "command":"particle lava ~ ~ ~"
+                },
+                {
+                  "type": "origins:damage",
+                  "amount": 4,
+                  "source": {
+                    "name": "explosion",
+                    "bypasses_armor": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+    },
+    "cooldown": 20,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+        "bar_index": 21
+    },
+    "name":"Demon Fists",
+    "description":"You plant a small explosive from time to time when you hit an entity, dealing damage to it, as well as setting it ablaze."
+}

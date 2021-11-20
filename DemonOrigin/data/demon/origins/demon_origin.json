@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"demon:spellbook",
+		"demon:possession",
+		"demon:lava_powers",
+		"demon:on",
+		"demon:phasing",
+		"demon:wings",
+		"demon:jet",
+		"demon:set_fire",
+		"demon:plant_bomb",
+		"demon:effects",
+		"demon:effects2",
+		"demon:effects3",
+		"demon:nonowaterbad"
+	],
+	"icon": "minecraft:red_nether_bricks",
+	"order": 10,
+	"impact": 3,
+	"name": "Arch Demon",
+	"description": "Summoned from the depths of the underworld you have one goal, destroy."
+}

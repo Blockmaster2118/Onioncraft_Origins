@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"dwarf:size2",
+		"dwarf:back",
+		"dwarf:effects2",
+		"dwarf:tnt",
+		"dwarf:fall_break",
+		"dwarf:cooldown",
+		"dwarf:start",
+		"dwarf:plant_bomb",
+		"dwarf:neutral_mobs"
+	],
+	"icon": "minecraft:redstone_block",
+	"order": 10,
+	"impact": 3,
+	"unchoosable": true,
+	"name": "Dwarven Mech ",
+	"description": "The greatest weapon of the dwarves, the perfect solider."
+}

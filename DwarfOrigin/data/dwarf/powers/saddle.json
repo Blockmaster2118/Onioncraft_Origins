@@ -1,0 +1,24 @@
+{
+	"type": "origins:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "id": "origins:saddle_craft_shaper",
+        "pattern": [
+            "###",
+            " X#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:leather"
+            },
+			"X": {
+				"item": "minecraft:iron_ingot"
+			}
+        },
+        "result": {
+            "item": "minecraft:saddle"
+        }
+    },
+	"name": "Saddle Crafting",
+	"description": "You can craft saddles (Leather along the middle row, leather in the bottom right corner, and 1 iron in the middle-lower row)"
+}

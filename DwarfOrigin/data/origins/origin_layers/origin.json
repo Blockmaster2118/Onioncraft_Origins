@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "origins": [
+    "dwarf:dwarf_origin",
+    "dwarf:mech_origin"
+  ]
+}
