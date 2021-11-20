@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "scale divide 0.7",
+        "permission_level": 4
+    },
+    "entity_action_respawned": {
+        "type": "origins:execute_command",
+        "command": "scale divide 0.7",
+        "permission_level": 4
+    },
+	"hidden": false,
+    "name": "Large Size",
+    "description": "The Kaiju Sapiens are larger than humans. You are 3 blocks tall. Your size also comes with the benefit of increased strength and resistance however it also greatly decreases your speed."
+}

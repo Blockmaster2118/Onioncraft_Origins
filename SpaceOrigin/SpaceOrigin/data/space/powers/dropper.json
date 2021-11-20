@@ -1,0 +1,53 @@
+{
+    "type": "origins:prevent_block_use",
+    "block_condition": {
+      "type": "origins:or",
+	  "conditions": [
+	  {
+		"type": "origins:block",
+		"block": "minecraft:dropper"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:chest"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:dispenser"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:hopper"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:trapped_chest"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:furnace"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:barrel"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:smoker"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:blast_furnace"
+	  },
+	  {
+		"type": "origins:block",
+		"block": "minecraft:shulker_box"
+	  }
+	  ]
+    },
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "minecraft:between"
+	},
+	"hidden": true
+}

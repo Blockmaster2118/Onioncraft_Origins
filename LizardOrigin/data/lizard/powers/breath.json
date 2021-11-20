@@ -1,0 +1,18 @@
+{
+		"type": "origins:fire_projectile",
+		"entity_type": "minecraft:wither_skull",
+		"cooldown": 200,
+		"count": 1,
+		"divergence": 0,
+		"speed": 3,
+		"hud_render": {
+			"should_render": false
+		},
+		"tag": "{pickup:0b}",
+		"key": {
+			"key": "key.origins.secondary_active",
+			"continuous": false
+		},
+		"name": "Atomic Blast",
+		"description": "The signature move of the Kaiju king Godzila. You are only capable of mimicking this move at a small scale."
+	}

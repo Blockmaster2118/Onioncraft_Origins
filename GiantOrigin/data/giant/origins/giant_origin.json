@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"giant:scale",
+		"giant:heavyhitter",
+		"giant:hardskin",
+		"giant:bigbag",
+		"giant:hardhit",
+		"giant:armor",
+		"giant:titan",
+		"giant:charge",
+		"giant:recharge"
+	],
+	"icon": "minecraft:dirt",
+	"order": 10,
+	"impact": 3,
+	"name": "Fluctuating Titan",
+	"description": "A titan with the rare ability, only appearing once every 100 years, to change size."
+}

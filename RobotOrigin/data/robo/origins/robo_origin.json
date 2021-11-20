@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"robo:repair",
+		"robo:laser",
+		"robo:aerial_motion",
+		"robo:overdrive",
+		"robo:shield"
+	],
+	"icon": "minecraft:iron_block",
+	"order": 10,
+	"impact": 3,
+	"name": "Arcane Guardian",
+	"description": "The ancient robotic guardians of the spirit portals, your powers are a magic that was lost to time long ago, to this day your brethren still guard to portals."
+}

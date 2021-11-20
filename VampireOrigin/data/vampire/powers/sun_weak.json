@@ -1,0 +1,29 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 8,
+	"duration_per_stack": 10,
+	"effects": [
+		{
+			"effect": "minecraft:slowness",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:hunger",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		}
+	],
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:exposed_to_sun"
+			}
+		]
+	},
+	"name": "Fear of Sunlight",
+	"description": "As a vampire sunlight harms you but you are buffed at night"
+}

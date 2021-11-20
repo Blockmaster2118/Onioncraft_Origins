@@ -1,0 +1,44 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+		    {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
+                    "duration": 100,
+                    "amplifier": 50,
+                    "show_icon": false,
+                    "show_particles": false
+                }
+            },
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "particle minecraft:end_rod ~ ~ ~ 0 0 0 1 100"
+            },
+            {
+
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "tp @s ^ ^1 ^7"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.beacon.power_select"
+            }
+        ]
+    },
+    "cooldown": 50,
+    "key": {
+        "key": "key.pickItem"
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 3
+    },
+    "name": "Photon Form",
+    "description": "Turn into pure light and dash forward. However this dash is instant and short in order to ensure the human body doesn’t disintegrate from all the energy."
+}

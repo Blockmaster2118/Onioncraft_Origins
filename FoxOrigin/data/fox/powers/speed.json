@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "enhanced speed bonus",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.2,
+    "operation": "addition"
+  },
+  "name": "Velocikinesis",
+  "description": "You can alter your own speed to achieve great acceleration."
+}

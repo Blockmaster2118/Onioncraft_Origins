@@ -1,0 +1,12 @@
+{
+    "type": "origins:action_over_time",
+    "name":"Unstable body",
+"description":"Due to the constant use of rifts your body becomes unstable making particles come out from you.",
+    "hidden": false,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "/particle minecraft:end_rod ~ ~ ~ 0.5 0.5 0.5 .01 10 normal @s"
+    },
+    "interval": 20
+}

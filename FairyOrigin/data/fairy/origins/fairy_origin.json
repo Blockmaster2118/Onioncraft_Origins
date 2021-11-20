@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"fairy:life_steal",
+		"fairy:size",
+		"fairy:movement",
+		"fairy:jump",
+		"fairy:wings",
+		"fairy:no_shield",
+		"fairy:jet",
+		"fairy:tendril"
+	],
+	"icon": "minecraft:wither_rose",
+	"order": 10,
+	"impact": 3,
+	"name": "Cannibal Fairy",
+	"description": "A fairy that went rough due to her lust for flesh"
+}

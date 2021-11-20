@@ -1,0 +1,60 @@
+{
+    "type": "origins:multiple",
+    "supercharge": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:item.trident.thunder"
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:resistance",
+                            "duration": 240,
+                            "amplifier": 4,
+                            "is_ambient": true,
+                            "show_particles": false
+                        },
+                        {
+                            "effect": "minecraft:strength",
+                            "duration": 240,
+                            "amplifier": 3,
+                            "is_ambient": true,
+                            "show_particles": false
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 240,
+                    "action": {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:item.trident.return"
+                    }
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ancient_golem:supercharged",
+                    "change": 1
+                },
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:electric_spark ~ ~ ~ 1 1 1 1 1000 normal",
+					"permission_level": 4
+				}
+            ]
+        },
+        "cooldown": 700,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 2
+        },
+        "key": "primary"
+    },
+    "name": "Supercharge",
+    "description": "Overdrive you robotic components to give yourself temporary armor and strength."
+}

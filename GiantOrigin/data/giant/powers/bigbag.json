@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "name": "Storage",
+    "drop_on_death": false,
+    "key": {
+        "key": "key.pickItem",
+        "continuous": false
+    },
+    "description": "You have a larger inventory (pick block)"
+  }

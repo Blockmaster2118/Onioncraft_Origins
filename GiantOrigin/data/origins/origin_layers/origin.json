@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "origins": [
+    "giant:giant_origin",
+    "giant:titan_origin"
+  ]
+}

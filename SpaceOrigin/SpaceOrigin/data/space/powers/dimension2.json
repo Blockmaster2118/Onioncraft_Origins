@@ -1,0 +1,137 @@
+{
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "/execute at @s run setblock ~ ~-4 ~ structure_block{mode:\"SAVE\",posX:-10,posY:1,posZ:-10,sizeX:20,sizeY:20,sizeZ:20,name:\"minecraft:part\"}",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "/execute at @s run setblock ~ ~-5 ~ redstone_block",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "/effect give @s minecraft:slowness 5 100 true",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "/effect give @s minecraft:blindness 4",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "/playsound minecraft:entity.elder_guardian.curse ambient @s",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 5,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/execute at @s run fill ~ ~-4 ~ ~ ~-5 ~ dirt",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 20,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/execute at @s run execute in minecraft:between run tp @s ~ ~1 ~",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 30,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/execute at @s run setblock ~ ~-4 ~ structure_block{mode:\"LOAD\",posX:-10,posY:1,posZ:-10,sizeX:20,sizeY:20,sizeZ:20,name:\"minecraft:part\"}",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 30,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/execute at @s run setblock ~ ~-5 ~ redstone_block",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 35,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/execute at @s run fill ~ ~-4 ~ ~ ~-5 ~ dirt",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 40,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/execute at @s /fill ~2 ~15 ~2 ~-2 ~150 ~-2 air",
+					"permission_level": 4
+				}
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 45,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "/kill @e[type=minecraft:item]",
+					"permission_level": 4
+				}
+			}
+			]
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+			{
+				"type": "origins:on_block",
+				"block_condition": {
+					"type": "origins:or",
+					"conditions": [
+					{
+						"type": "origins:block",
+						"block": "minecraft:air",
+						"inverted": true
+					},
+					{
+						"type": "origins:block",
+						"block": "minecraft:cave_air",
+						"inverted": true
+					}
+					]
+				}
+			},
+			{
+				"type": "origins:dimension",
+				"dimension": "minecraft:between",
+				"inverted": true
+			},
+			{
+				"type": "origins:sneaking",
+				"inverted": true
+			}
+			]
+		},
+	"cooldown": 20,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+	"name": "Rift Dimension",
+	"description": "Your species managed to adapt to be able to use this fragile region of space where all dimensions come together. Thanks to that you have the ability to be able to enter and exit any dimension by going through the 'between'."
+}

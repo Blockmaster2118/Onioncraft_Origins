@@ -1,0 +1,38 @@
+{
+    "type":"origins:stacking_status_effect",
+    "name":"Moonlight Absorption",
+    "description":"You absorb moonlight with your lunar magic",
+    "min_stacks": 0,
+    "max_stacks": 2,
+    "duration_per_stack": 200,
+    "effects": [
+        {
+            "effect": "minecraft:strength",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:speed",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:night_vision",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:regeneration",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+    "condition":{
+        "type":"origins:daytime",
+        "inverted": true
+    }
+} 

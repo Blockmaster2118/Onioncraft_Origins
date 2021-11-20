@@ -1,0 +1,11 @@
+{
+    "type": "origins:invisibility",
+    "hidden": false,
+    "render_armor": false,
+    "condition": {
+        "type": "origins:sneaking",
+        "inverted": false
+    },
+    "name": "One with the Shadow",
+    "description": "While sneaking you can become one with the shadow and dissolve into it"
+}

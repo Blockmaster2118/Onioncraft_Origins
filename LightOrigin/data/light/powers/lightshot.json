@@ -1,0 +1,20 @@
+{
+		"type": "origins:fire_projectile",
+		"entity_type": "minecraft:spectral_arrow",
+		"cooldown": 20,
+		"count": 1,
+		"divergence": 0,
+		"speed": 4,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index": 15
+		},
+		"tag": "{pickup:0b}",
+		"key": {
+			"key": "key.origins.primary_active",
+			"continuous": true
+		},
+		"name": "Light Laser",
+		"description": "Using Light magic, release a small fast light crystal projectile that will damage and mark whoever or whatever it hits."
+	}

@@ -1,0 +1,46 @@
+{
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.pickItem"
+    },  
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 0
+    },
+    "cooldown": 50,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+        {
+            "type": "origins:execute_command",
+            "command": "tag @e[distance=1..10,limit=3] add Target"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "execute at @e[tag=Target] run particle minecraft:item_snowball ~ ~1 ~ .4 .4 .4 0 1000 normal"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "execute at @e[tag=Target] run particle dust 0.780 0.780 0.780 1 ~ ~1 ~ .3 .3 .3 0 1000 normal"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "playsound minecraft:entity.illusioner.cast_spell master @p ~ ~ ~ 1000 0"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "effect give @e[tag=Target] minecraft:instant_damage 1 1 true"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "effect give @e[tag=Target] minecraft:slowness 3 10 true"
+        },
+        {
+            "type": "origins:execute_command",
+            "command": "tag @e remove Target"
+        }  
+        ]
+    },
+    "name": "Ice Burst",
+    "description": "An ice magc spell you've learned on your travels that will freeze anyone around you."
+}

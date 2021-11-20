@@ -1,0 +1,124 @@
+{
+    "name": "Size Change",
+    "description": "As a slime you have the ability to change size (save and load hotbar)",
+    "type": "origins:multiple",
+    "scale_speed":
+    {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_chosen":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale delay set pehkui:height 5"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale delay set pehkui:width 5"
+                }
+            ]
+        },
+        "entity_action_respawned":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale delay set pehkui:height 5"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale delay set pehkui:width 5"
+                }
+            ]
+        }
+    },
+    "grow":
+    {
+        "type": "origins:active_self",
+        "cooldown": 5,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 0
+        },
+        "key":
+        {
+            "key": "key.saveToolbarActivator",
+            "continuous": true
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": "==",
+            "compare_to": 1.5,
+            "permission_level": 4,
+            "command": "execute if entity @s[pehkui.scale_type=pehkui:height,pehkui.scale=..1.4]"
+        },
+        "entity_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale add pehkui:height 0.1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale add pehkui:width 0.1"
+                }
+            ]
+        }
+    },
+    "shrink":
+    {
+        "type": "origins:active_self",
+        "cooldown": 5,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 0
+        },
+        "key":
+        {
+            "key": "key.loadToolbarActivator",
+            "continuous": true
+        },
+        "condition":
+        {
+            "type": "origins:command",
+            "inverted": false,
+            "comparison": "==",
+            "compare_to": 1,
+            "permission_level": 4,
+            "command": "execute if entity @s[pehkui.scale_type=pehkui:height,pehkui.scale=0.6..]"
+        },
+        "entity_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale subtract pehkui:height 0.1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "scale subtract pehkui:width 0.1"
+                }
+            ]
+        }
+    }
+}

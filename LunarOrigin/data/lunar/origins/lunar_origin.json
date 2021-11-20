@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"lunar:neutral_mobs",
+		"lunar:waterwalker",
+		"lunar:summon",
+		"lunar:fangs",
+		"lunar:nightbuff",
+		"lunar:bar1",
+		"lunar:form",
+		"lunar:on",
+		"lunar:fly",
+		"lunar:rain",
+		"lunar:night",
+		"lunar:no_sleep"
+	],
+	"icon": "minecraft:end_stone",
+	"order": 10,
+	"impact": 3,
+	"name": "Lunar Witch",
+	"description": "A Witch well versed in all magic, that specializes in Lunar magic and spells"
+}

@@ -1,0 +1,54 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+		    {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
+                    "duration": 100,
+                    "amplifier": 50,
+                    "show_icon": false,
+                    "show_particles": false
+                }
+            },
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "particle minecraft:portal ~ ~ ~ 0 0 0 10 1000 force"
+            },
+            {
+
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "tp @s ^ ^1 ^7"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.enderman.teleport"
+            }
+        ]
+    },
+    "cooldown": 50,
+    "key": {
+        "key": "key.pickItem"
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 3
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:dimension",
+            "dimension": "minecraft:between",
+            "inverted": true
+          }
+        ]
+      },
+    "name": "Rift Jump",
+    "description": "Create a small rift to teleport."
+}

@@ -1,0 +1,19 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:arrow",
+    "cooldown": 40,
+    "speed": 4,
+    "divergence": 0,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 11
+    },
+    "tag": "{pickup:0b, CustomPotionEffects:[{Id:2,Duration:200,Amplifier:9b}]}",
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+    "name": "Throwing Knife",
+    "description": "You throw a knife tipped with a special venom. (secondary)"
+}

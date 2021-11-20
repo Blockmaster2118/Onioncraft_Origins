@@ -1,0 +1,89 @@
+{
+	"type": "origins:multiple",
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 100,
+        "hud_render": {
+		"should_render": false
+    }
+    },
+	"over_time": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+		"type": "origins:change_resource",
+		"resource": "*:flame_resource",
+		"change": 1
+    },
+    "interval": 10,
+	"condition": {
+	"type": "origins:and"
+	}
+	},
+	
+	"death": {
+    
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:change_resource",
+    "resource": "*:flame_resource",
+    "change": -100
+    },
+    "entity_action_respawned": {
+        "type": "origins:change_resource",
+    "resource": "*:flame_resource",
+    "change": -100
+    },
+    "execute_chosen_when_orb": true
+	},
+	
+	"cloud_active_timer": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:flame_resource",
+            "change": -10
+        },
+		"condition": {
+		"type": "origins:and",
+		"conditions": [
+		{
+			"type": "origins:resource",
+            "resource": "*:flame_resource",
+            "comparison": ">",
+            "compare_to": 0
+		},
+		{      
+			"type": "origins:power_active",
+			"power": "dragon:flame_toggle"
+		},
+		{
+			"type": "origins:power_active",
+			"power": "dragon:toggle",
+			"inverted": true
+		}
+	]
+	}
+	},
+	
+	"toggle":{
+      "type":"origins:toggle",
+	  "active_by_default": false,
+      "key":{
+         "key":"key.pickItem",
+         "continuous":false
+      },
+	  "condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:power_active",
+					"power": "dragon:toggle",
+					"inverted": true
+				}
+			]
+		}
+	},
+	"hidden": true
+}

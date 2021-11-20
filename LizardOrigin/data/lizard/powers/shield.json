@@ -1,0 +1,38 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "stopdeath": {
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "playsound block.respawn_anchor.deplete player @s ~ ~ ~ 1 1"
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "lizard:*_shieldcooldown"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "inverted": false,
+            "comparison": "==",
+            "resource": "lizard:*_shieldcooldown",
+            "compare_to": 0
+        }
+    },
+    "shieldcooldown": {
+        "type": "origins:cooldown",
+        "hidden": true,
+        "cooldown": 600,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 0
+        }
+    }
+}

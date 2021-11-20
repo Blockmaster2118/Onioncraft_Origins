@@ -1,0 +1,11 @@
+{
+	"type": "origins:effect_immunity",
+	"effects": [
+		"minecraft:levitation"
+	],
+	"cooldown": 0,
+	"condition": {
+		"type": "origins:on_block"
+	},
+	"hidden": true
+}

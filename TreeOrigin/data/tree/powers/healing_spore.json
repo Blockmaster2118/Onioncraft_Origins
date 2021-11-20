@@ -1,0 +1,18 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "function tree:healing_spore"
+    },
+    "cooldown": 680,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "bar_index": 15
+    },
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "name": "Healing Spores",
+    "description": "Helps to heal everything within a six block radius(to use, press the primary key while sneaking)."
+}

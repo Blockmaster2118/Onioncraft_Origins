@@ -1,0 +1,27 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+
+			{
+				"type": "origins:execute_command",
+				"permisson_level": 4,
+				"command": "summon phantom ~ ~1 ~"
+			},
+			{
+				"type": "origins:execute_command",
+				"permisson_level": 4,
+				"command": "summon phantom ~ ~1 ~"
+			}
+		]
+	},
+	"cooldown": 200,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 17
+    },
+	"name": "Creatures of the night",
+	"description": "Summon dark minions that will take to the skys. (primary)"
+
+}

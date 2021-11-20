@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"merman:propel",
+		"merman:effects",
+		"merman:effects2",
+		"merman:effects3",
+		"merman:neutral_mobs",
+		"merman:summon",
+		"merman:trident",
+		"merman:aqua",
+		"merman:aqua2",
+		"merman:conduct"
+	],
+	"icon": "minecraft:trident",
+	"order": 10,
+	"impact": 3,
+	"name": "Deep Sea Merman",
+	"description": "A merman that was raised on land by humans. Due to this you are far better at fighting on land than the others of your species. However the water is your home and it is where you are the strongest."
+}

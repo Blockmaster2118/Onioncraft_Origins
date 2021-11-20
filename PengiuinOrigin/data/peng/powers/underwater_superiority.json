@@ -1,0 +1,26 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"condition": {
+		"type": "origins:or",
+		"conditions": [{
+				"type": "origins:in_rain"
+			},
+			{
+				"type": "origins:in_block_anywhere",
+				"block_condition": {
+					"type": "origins:block",
+					"block": "minecraft:water"
+				},
+				"comparison": ">=",
+				"compare_to": 1
+			}
+		]
+	},
+	"modifier": {
+		"operation": "addition",
+		"value": 6.0
+	},
+
+	"name": "Swimmer",
+	"description": "As a penguin you are a good swimmer "
+}

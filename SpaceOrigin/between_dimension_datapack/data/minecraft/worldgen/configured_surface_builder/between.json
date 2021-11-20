@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:white_concrete"
+    },
+    "under_material": {
+      "Name": "minecraft:white_concrete"
+    },
+    "underwater_material": {
+      "Name": "minecraft:white_concrete"
+    }
+  },
+  "type": "minecraft:default"
+}

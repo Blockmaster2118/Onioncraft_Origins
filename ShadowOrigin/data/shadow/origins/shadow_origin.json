@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"shadow:phasing",
+		"shadow:dart",
+		"shadow:nightbuff",
+		"shadow:speed",
+		"shadow:no_shield",
+		"shadow:backstab",
+		"shadow:invis",
+		"shadow:less"
+	],
+	"icon": "minecraft:tinted_glass",
+	"order": 11,
+	"impact": 3,
+	"name": "Shadow Crawler",
+	"description": "From a race that specializes in stealth and shadows, this origin is well versed in assassination and sneaking."
+}

@@ -1,0 +1,27 @@
+{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+            {
+                "type": "origins:delay",
+                "ticks": 199,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "scale reset @s"
+                }
+            },
+            {
+                "type": "origins:delay",
+                "ticks": 200,
+                "action": {
+                "type": "origins:execute_command",
+                "command": "origin set @s origins:origin giant:giant_origin"
+                }
+            }
+        ]
+        },
+        "interval": 1,
+        "hidden": true
+}
+

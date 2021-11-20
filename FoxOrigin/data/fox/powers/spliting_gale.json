@@ -1,0 +1,20 @@
+{
+		"type": "origins:fire_projectile",
+		"entity_type": "minecraft:spectral_arrow",
+		"cooldown": 20,
+		"count": 3,
+		"divergence": 4,
+		"speed": 6,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index": 15
+		},
+		"tag": "{pickup:0b}",
+		"key": {
+			"key": "key.origins.secondary_active",
+			"continuous": true
+		},
+		"name": "Soul Aura",
+		"description": "Shoot 3 projectiles powered up with soul energy."
+	}

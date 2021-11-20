@@ -1,0 +1,8 @@
+{
+	"type": "origins:effect_immunity",
+	"effects": [
+		"minecraft:poison"
+	],
+	"cooldown": 0,
+	"hidden": true
+}

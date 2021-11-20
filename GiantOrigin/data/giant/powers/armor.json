@@ -1,0 +1,14 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:resistance",
+            "amplifier": 2,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "interval": 1,
+    "hidden": true
+}

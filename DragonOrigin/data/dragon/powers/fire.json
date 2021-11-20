@@ -1,0 +1,19 @@
+{
+	"type": "origins:action_over_time",
+	"interval": 1,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:set_on_fire",
+				"duration": 10
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "power revoke @s dragon:fire",
+				"permission": 4
+			}
+		]
+	},
+	"hidden": true
+}

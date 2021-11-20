@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"peng:underwater_superiority",
+		"peng:water_propulsion",
+		"peng:belly_slide",
+		"peng:underwater_sight",
+		"peng:polar_nemisis",
+		"peng:sliding",
+		"peng:movement",
+		"peng:jump",
+		"peng:frost_walker",
+		"peng:frost_walker_activate",
+		"peng:smoke_burst",
+		"peng:heatwave",
+		"peng:encase"
+	],
+	"icon": "minecraft:snow_block",
+	"order": 10,
+	"impact": 3,
+	"name": "Emperor Penguin",
+	"description": "A bio-engineered penguin with such high intelligence that it learned magic."
+}

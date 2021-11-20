@@ -1,0 +1,57 @@
+{
+	"type": "origins:action_over_time",
+	"hidden": true,
+	"rising_action": {
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "/give @s diamond_sword{display:{Name:'{\"text\":\"Blade of The Stars\",\"color\":\"dark_blue\",\"bold\":false,\"italic\":false}',Lore:['{\"text\":\"Protect The Stars, Mighty Fallen Star\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false}']},HideFlags:5,Unbreakable:1b,CustomModelData:123456,Enchantments:[{id:\"minecraft:sharpness\",lvl:3s},{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:sweeping\",lvl:3s}]} 1",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "/title @s title {\"text\":\"§5§k123§r§5Protect §9The Stars§k321\",\"color\":\"dark_blue\",\"bold\":true,\"italic\":true}",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:wax_off ~ ~ ~ 1 1 1 100 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:dust .6 0 1 2 ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:dust .7 0 .8 2 ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:dust .2 0.3 1 2 ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:dust .4 0 .8 2 ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:dust .3 0 .8 2 ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:play_sound",
+				"sound": "minecraft:item.trident.thunder"
+			}
+		]
+	},
+	"interval": 20,
+	"condition": {
+		"type": "origins:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+	}
+}

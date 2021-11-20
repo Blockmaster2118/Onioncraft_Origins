@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"fox:dash",
+		"fox:speed",
+		"fox:effects2",
+		"fox:aerial_motion",
+		"fox:waterwalker",
+		"fox:no_fall",
+		"fox:lightning_immunity",
+		"fox:spliting_gale",
+		"fox:speed2",
+		"fox:dodge"
+	],
+	"icon": "minecraft:emerald",
+	"order": 10,
+	"impact": 3,
+	"name": "Astral Kitsune",
+	"description": "The spirit of the nine tailed fox lives within you granting you great power far beyond that of a normal demi-human."
+}

@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"space:evstars",
+		"space:vacuum",
+		"space:float",
+		"space:immune",
+		"space:dimension2",
+		"space:nether",
+		"space:end",
+		"space:dropper",
+		"space:fly",
+		"space:gamemode",
+		"space:overworld",
+		"space:god",
+		"space:phasing",
+		"space:teleport",
+		"space:star"
+	],
+	"icon": "minecraft:crying_obsidian",
+	"order": 10,
+	"impact": 3,
+	"name": "Rift Jumper",
+	"description": "Born from the death of a black hole, a cosmic being wandering the vast space, looking for a purpose."
+}

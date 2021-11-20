@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"lizard:breath",
+		"lizard:size",
+		"lizard:effects",
+		"lizard:effects2",
+		"lizard:effects3",
+		"lizard:effects4",
+		"lizard:effects5",
+		"lizard:shield",
+		"lizard:boulder",
+		"lizard:bouldera",
+		"lizard:boulderc"
+	],
+	"icon": "minecraft:charcoal",
+	"order": 10,
+	"impact": 3,
+	"name": "Kaiju Sapien",
+	"description": "As a member of the race of cave dwelling large, humanoid Lizards, you poses incredible strength being able to fight an iron golem with your bare hands."
+}

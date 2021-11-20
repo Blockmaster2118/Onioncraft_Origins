@@ -1,0 +1,54 @@
+{
+  "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+	    "type": "origins:execute_command",
+	    "command": "execute at @s run particle minecraft:bubble ~ ~ ~ 0.3 0 0.3 0 50 normal",
+        "permission_level": 4
+        },
+        {    
+	    "type": "origins:execute_command",
+	    "command": "playsound minecraft:entity.blaze.shoot ambient @a[distance=..5] ~ ~ ~ 1 1 1",
+        "permission_level": 4
+        },
+		{
+			"type": "origins:add_velocity",
+			"z": 3,
+			"space": "local"
+		}
+      ]
+    },
+	"condition": {
+	"type": "origins:and",
+	"conditions": [
+	{
+		"type": "origins:submerged_in",
+		"fluid": "minecraft:water"
+	},
+	{
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:air"
+		}
+		}
+	}
+	]
+	},
+	"name": "Water Propulsion",
+	"description": "Controlling the water currents you can boost yourself in the ocean, This only works when completely submerged",
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    },
+	"cooldown": 20,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 3
+		}
+}

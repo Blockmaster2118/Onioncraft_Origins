@@ -1,0 +1,27 @@
+{
+	"powers": [
+		"dragon:wings",
+		"dragon:flame_hand",
+		"dragon:fireball",
+		"dragon:jet",
+		"dragon:fire_hands",
+		"dragon:toggle",
+		"dragon:flame",
+		"dragon:set_fire",
+		"dragon:resistance",
+		"dragon:no_shield",
+		"dragon:lava_powers",
+		"dragon:scales",
+		"dragon:storm_caller",
+		"dragon:day",
+		"dragon:daybuff",
+		"dragon:lightning_immunity",
+		"dragon:thunder",
+		"dragon:food"
+	],
+	"icon": "minecraft:magma_block",
+	"order": 10,
+	"impact": 3,
+	"name": "Dragon Blooded",
+	"description": "Born from the ancient race of plasma dragons, this origin grants the user many abilities based around fire and solar magic."
+}

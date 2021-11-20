@@ -1,0 +1,77 @@
+{
+	"type": "origins:multiple",
+	"effect_give": {
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.blaze.shoot master @a[distance=..5] ~ ~ ~ 1 0",
+                "permission_level": 4
+            },
+			{
+				"type": "origins:execute_command",
+				"command": "function dragon:fire_ring",
+				"permission_level": 4
+			},
+            {
+                "type": "origins:execute_command",
+                "command": "power grant @e[distance=..6] dragon:fire",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "power revoke @s dragon:fire",
+                "permission_level": 4
+            }
+        ]
+    },
+    "cooldown": 300,
+	"condition": {
+	"type": "origins:and"
+	},
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 15
+    },
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+	},
+	
+	"summon_ring": {
+	"type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute as @s run function dragon:summon_ring",
+        "permission_level": 4
+    },
+    "cooldown": 10,
+	"key":{
+         "key":"key.origins.secondary_active",
+         "continuous":false
+    },
+    "hud_render": {
+        "should_render": false
+    }
+	},	
+	"ring": {
+	"type": "origins:active_self",
+    "entity_action": {
+		"type": "origins:execute_command",
+        "command": "execute as @s run function dragon:ring",
+        "permission_level": 4
+    },
+	"cooldown": 10,
+	"key":{
+         "key":"key.origins.secondary_active",
+         "continuous":false
+    },
+    "hud_render": {
+        "should_render": false
+    }
+	},
+    "hidden": true
+}

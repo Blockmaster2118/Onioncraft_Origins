@@ -1,0 +1,19 @@
+{
+    "type":"origins:stacking_status_effect",
+    "name":"Creature of Darkness",
+    "description":"As an assassin and a creature that lives in shadows night time is ur home turf",
+    "min_stacks": 0,
+    "max_stacks": 2,
+    "duration_per_stack": 200,
+    "effects": 
+        {
+            "effect": "minecraft:strength",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+    "condition":{
+        "type":"origins:daytime",
+        "inverted": true
+    }
+} 

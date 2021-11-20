@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"vampire:life_suck",
+		"vampire:night_vision",
+		"vampire:speed",
+		"vampire:sun_weak",
+		"vampire:bar1",
+		"vampire:on",
+		"vampire:form",
+		"vampire:fly",
+		"vampire:no_shield",
+		"vampire:summon",
+		"vampire:dart",
+		"vampire:more"
+	],
+	"icon": "minecraft:nether_wart_block",
+	"order": 10,
+	"impact": 3,
+	"name": "Royal Vampire",
+	"description": "The champion of the royal family of vampire, dubbed the god of blood"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins:invisibility",
+  "condition": {
+        "type": "origins:resource",
+        "resource": "light:speedbar",
+        "comparison": ">=",
+        "compare_to": 50
+  },
+  "hidden": true,
+  "render_armor": false
+}

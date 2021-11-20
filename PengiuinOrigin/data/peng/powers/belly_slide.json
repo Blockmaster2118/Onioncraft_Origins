@@ -1,0 +1,20 @@
+{
+	"type": "origins:swimming",
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+			"type": "origins:block_collision",
+			"offset_x": 0,
+			"offset_y": -0.65,
+			"offset_z": 0
+		},
+		{
+			"type": "origins:power_active",
+			"power": "peng:sliding"
+		}
+		]
+	},
+	
+	"name": "Belly Slide",
+	"description": "You're a penguin, you can slide, very fast, on your belly. (Primary)"
+}

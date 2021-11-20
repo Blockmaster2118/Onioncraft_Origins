@@ -1,0 +1,28 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+
+			{
+				"type": "origins:execute_command",
+				"permisson_level": 4,
+				"command": "summon zombie ~ ~1 ~ {ArmorItems:[{Count:1,id:diamond_boots}, {Count:1,id:diamond_leggings}, {Count:1,id:diamond_chestplate}, {Count:1,id:diamond_helmet}],HandItems:[{Count:1,id:diamond_sword}, {Count:1,id:shield}]}"
+			},
+			{
+				"type": "origins:execute_command",
+				"permisson_level": 4,
+				"command": "summon zombie ~ ~1 ~ {ArmorItems:[{Count:1,id:diamond_boots}, {Count:1,id:diamond_leggings}, {Count:1,id:diamond_chestplate}, {Count:1,id:diamond_helmet}],HandItems:[{Count:1,id:diamond_sword}, {Count:1,id:shield}]}"
+			}
+		]
+	},
+	"cooldown": 600,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_render": 3
+	},
+	"name": "Necromancy",
+	"description": "Using the necromancy you have learned you can now summon 2 zombie guards"
+
+}

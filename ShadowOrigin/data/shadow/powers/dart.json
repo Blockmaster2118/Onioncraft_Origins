@@ -1,0 +1,18 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:arrow",
+    "cooldown": 40,
+    "speed": 4,
+    "divergence": 0,
+    "tag": "{pickup:0b, CustomPotionEffects:[{Id:15,Duration:200,Amplifier:0b}]}",
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+    "name": "Poison Spike",
+    "description": "You can shoot a non lethal poison spike from your tail that will  knock out (blind) your target",
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 14
+    }
+}

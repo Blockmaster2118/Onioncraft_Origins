@@ -1,0 +1,21 @@
+{
+	"type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1000,
+    "duration_per_stack": 10,
+	"effect":{
+		"effect": "minecraft:night_vision",
+		"duration": 400,
+		"amplifier": 1,
+		"show_icon": true,
+		"show_particles": false		
+	},
+	
+	"condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water"
+
+},
+"name": "Hydro Absorption",
+"description": "You use the water to enhance your movement and strength"
+}

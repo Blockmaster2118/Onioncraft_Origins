@@ -1,0 +1,28 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+
+			{
+				"type": "origins:execute_command",
+				"permisson_level": 4,
+				"command": "summon guardian ~ ~1 ~"
+			},
+			{
+				"type": "origins:execute_command",
+				"permisson_level": 4,
+				"command": "summon guardian ~ ~1 ~"
+			}
+		]
+	},
+	"cooldown": 200,
+    "hud_render": {
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 6
+    },
+	"key": {"key": "key.origins.secondary_active"},
+	"name": "Creatures of the Depths",
+	"description": "As a merman you are respected by the creatures of the sea, you can summon 2 ancient guardians to fight by your side"
+
+}

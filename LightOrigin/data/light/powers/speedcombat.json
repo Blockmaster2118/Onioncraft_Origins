@@ -1,0 +1,16 @@
+{
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+		"type": "origins:execute_command",
+		"command": "tp @s ^-2 ^1.5 ^2 ~-75 ~0"
+	},
+	"cooldown": 10,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "light:tp_resources",
+		"comparison": "<",
+		"compare_to": 3
+	},
+	"name": "Godspeed",
+	"description": "Using your speed your fighting style consists of dodging and hit and run attacks making it hard to hit you."
+}

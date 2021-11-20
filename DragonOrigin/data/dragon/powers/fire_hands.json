@@ -1,0 +1,29 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle flame ^-.2 ^1.4 ^.2 0 0 0 0.01 5 normal",
+        "permission_level": 4
+    },
+    "interval": 6,
+    "condition": {
+	"type": "origins:and",
+	"conditions": [
+	{
+	"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:air"
+				}
+			}
+	},
+	{
+		"type": "origins:power_active",
+        "power": "dragon:toggle"
+	}
+	]
+	},
+	"hidden": true
+}

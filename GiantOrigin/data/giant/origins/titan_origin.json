@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"giant:heavyhitter",
+		"giant:hardskin",
+		"giant:hardhit",
+		"giant:armor",
+        "giant:size",
+        "giant:attack",
+        "giant:back",
+        "giant:large",
+		"giant:cooldown",
+		"giant:start"
+	],
+	"icon": "minecraft:coarse_dirt",
+	"order": 10,
+	"impact": 3,
+	"name": "True Titan",
+	"description": "In the form of the true titans, you are very large nearly invincible and incredibly powerful.",
+	"unchoosable": true
+}

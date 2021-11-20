@@ -1,0 +1,60 @@
+{
+  "scale": 0.0,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 16777215,
+    "fog_color": 16777215,
+    "water_color": 16777215,
+    "water_fog_color": 16777215
+  },
+  "surface_builder": "minecraft:between",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+    ],
+    [],
+    [
+    ],
+    [],
+    [],
+    [
+    ],
+    [],
+    [
+    ],
+    [
+    ]
+  ],
+  "starts": [
+  ],
+  "spawners": {
+    "monster": [
+    ],
+    "creature": [],
+    "ambient": [
+    ],
+    "water_creature": [
+    ],
+    "water_ambient": [
+    ],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "snow",
+  "temperature": 0.0,
+  "downfall": 0.5,
+  "category": "river",
+  "depth": 0
+}

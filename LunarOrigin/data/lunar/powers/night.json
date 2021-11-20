@@ -1,0 +1,28 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+            {
+                "type": "origins:delay",
+                "ticks": 67,
+                "action": {
+                  "type": "origins:execute_command",
+                  "command": "time set midnight"
+                }
+              }
+		]
+	},
+	"cooldown": 1200,
+	"hud_render": {
+		"should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 18
+	},
+    "key": {
+        "key":"key.saveToolbarActivator"
+    },
+
+    "hidden": true
+
+}

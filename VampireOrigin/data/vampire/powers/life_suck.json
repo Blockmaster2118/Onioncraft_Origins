@@ -1,0 +1,19 @@
+{
+	"type": "origins:self_action_on_hit",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:regeneration",
+			"amplifier": 2,
+			"duration": 40
+		}
+	},
+	"cooldown": 10,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index": 5
+	},
+	"name": "Blood Suck",
+	"description": "As a vampire you suck and heal off the blood of those whom you attack"
+}

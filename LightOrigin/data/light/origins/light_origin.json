@@ -1,0 +1,25 @@
+{
+	"powers": [
+		"light:dodge",
+		"light:speedcombat",
+		"light:glowing",
+		"light:shines",
+		"light:teleport",
+		"light:invis",
+		"light:aerial_motion",
+		"light:lightshot",
+		"light:less",
+		"light:phasing",
+		"light:speed",
+		"light:speed2",
+		"light:speedbar",
+		"light:speedgain",
+		"light:speedlose",
+		"light:invis2"
+	],
+	"icon": "minecraft:glowstone",
+	"order": 10,
+	"impact": 3,
+	"name": "Light Spirit",
+	"description": "The guardian superior spirit possessing and living inside a human host. Together the combination of the human,s will and spirit’s power is deadly."
+}

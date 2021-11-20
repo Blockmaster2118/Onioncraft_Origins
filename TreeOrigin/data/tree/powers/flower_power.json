@@ -1,0 +1,655 @@
+{
+  "type": "origins:multiple",
+  "wither_rose": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:levitation",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:wither_rose 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:wither_rose"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "cornflower": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:water_breathing",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:cornflower",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:cornflower"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "orchid": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:speed",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:blue_orchid 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:blue_orchid"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "white_tulip": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slow_falling",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:white_tulip 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:white_tulip"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "oxeye_daisy": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slow_falling",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:oxeye_daisy 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:oxeye_daisy"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "azure_bluet": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slow_falling",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:azure_bluet 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:azure_bluet"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "allium": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:resistance",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:allium 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:allium"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "lilac": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:resistance",
+            "amplifier": 1,
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:lilac 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:lilac"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "orange_tulip": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:fire_resistance",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:orange_tulip 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:orange_tulip"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "pink_tulip": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:pink_tulip 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:pink_tulip"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "peony": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:regeneration",
+            "amplifier": 1,
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:peony 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:peony"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "poppy": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:poppy 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:poppy"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "red_tulip": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:red_tulip 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:red_tulip"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "rose_bush": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "amplifier": 1,
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:rose_bush 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:rose_bush"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "lily_of_the_valley": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:night_vision",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:lily_of_the_valley 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:lily_of_the_valley"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "dandelion": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:absorption",
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:dandelion 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:dandelion"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "sunflower": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:absorption",
+            "amplifier": 1,
+            "duration": 600,
+            "show_particles": false
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "clear @s minecraft:sunflower 1",
+          "permission_level": 4
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "offhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:sunflower"
+        }
+      }
+    },
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "cooldown": 0,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "name": "Flower Power",
+  "description": "You can put any flower in your off hand and press your secondary ability key to gain an effect. Based on the dye amount it gives when crafting is the power of the effect. (wither rose: levitation, cornflower: water breathing, blue orchid: speed, azure bluet, oxeye daisy, & white tulip: slow falling, allium & lilac: resistance, orange tulip: fire resistance, pink tulip & peony: regeneration, poppy, red tulip, & rose bush: strength, lily of the valley: night vision, dandelion & sunflower: absorption)"
+}

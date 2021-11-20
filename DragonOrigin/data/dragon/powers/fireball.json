@@ -1,0 +1,35 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+	"sound": "minecraft:entity.blaze.shoot",
+	"speed": 2,
+	"divergence": 0,
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": false
+    },
+	"condition": {
+	  "type": "origins:and",
+	"conditions": [
+	{
+	"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:ingredient",
+				"ingredient": {
+					"item": "minecraft:air"
+				}
+			}
+	},
+	{
+		"type": "origins:power_active",
+        "power": "dragon:toggle"
+	}
+	]
+	},
+    "key": {
+        "key": "key.attack",
+        "continuous": false
+    },
+	"hidden": true
+}

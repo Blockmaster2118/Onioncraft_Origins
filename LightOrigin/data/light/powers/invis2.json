@@ -1,0 +1,24 @@
+{
+  "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+	      		{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "particle minecraft:end_rod ~ ~ ~ 0 0 0 1 100"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.beacon.power_select"
+            }
+        ]
+    },
+  "condition": {
+        "type": "origins:resource",
+        "resource": "light:speedbar",
+        "comparison": ">=",
+        "compare_to": 50
+  },
+  "hidden": true
+} 

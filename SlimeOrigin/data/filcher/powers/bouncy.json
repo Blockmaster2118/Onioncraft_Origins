@@ -1,0 +1,289 @@
+{
+    "type": "origins:multiple",
+    "land": {
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [{
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [{
+                                "type": "origins:add_velocity",
+                                "y": 0,
+                                "set": true,
+                                "space": "world"
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_jump",
+                                "change": -1
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jump",
+                        "comparison": "==",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [{
+                                "type": "origins:add_velocity",
+                                "y": 0.1,
+                                "set": true,
+                                "space": "world"
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_jump",
+                                "change": -1
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jump",
+                        "comparison": "==",
+                        "compare_to": 2
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [{
+                                "type": "origins:add_velocity",
+                                "y": 0.2,
+                                "set": true,
+                                "space": "world"
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_jump",
+                                "change": -1
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jump",
+                        "comparison": "==",
+                        "compare_to": 3
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [{
+                                "type": "origins:add_velocity",
+                                "y": 0.4,
+                                "set": true,
+                                "space": "world"
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_jump",
+                                "change": -1
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jump",
+                        "comparison": "==",
+                        "compare_to": 4
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [{
+                                "type": "origins:add_velocity",
+                                "y": 0.6,
+                                "set": true,
+                                "space": "world"
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_jump",
+                                "change": -1
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jump",
+                        "comparison": "==",
+                        "compare_to": 5
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [{
+                                "type": "origins:add_velocity",
+                                "y": 0.75,
+                                "set": true,
+                                "space": "world"
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_jump",
+                                "change": -1
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jump",
+                        "comparison": "==",
+                        "compare_to": 6
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [{
+                                "type": "origins:add_velocity",
+                                "y": 0.85,
+                                "set": true,
+                                "space": "world"
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "*:*_jump",
+                                "change": -1
+                            }
+                        ]
+                    },
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "*:*_jump",
+                        "comparison": "==",
+                        "compare_to": 7
+
+                    }
+                }
+            ]
+        }
+    },
+    "reset": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_jump",
+            "change": -7
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [{
+                "type": "origins:sneaking"
+            }]
+        }
+    },
+    "add": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.jump"
+        },
+        "hud_render": {
+            "should_render": false
+        },
+        "cooldown": 1,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [{
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_jump",
+                        "change": 4
+                    },
+                    "condition": {
+                        "type": "origins:fall_distance",
+                        "comparison": "<=",
+                        "compare_to": 2.3
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_jump",
+                        "change": 5
+                    },
+                    "condition": {
+                        "type": "origins:fall_distance",
+                        "comparison": "<=",
+                        "compare_to": 2.5
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_jump",
+                        "change": 6
+                    },
+                    "condition": {
+                        "type": "origins:fall_distance",
+                        "comparison": "<=",
+                        "compare_to": 3.5
+                    }
+                },
+                {
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:*_jump",
+                        "change": 7
+                    },
+                    "condition": {
+                        "type": "origins:fall_distance",
+                        "comparison": ">",
+                        "compare_to": 3.5
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [{
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:lava",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:sneaking",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:climbing",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "jump": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 7,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "name": "Bouncy",
+    "description": "Any block you jump on bounces you upwards"
+}
