@@ -1,0 +1,14 @@
+﻿{
+	"hidden": true,
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.01,
+        "name": "Speed"
+    },
+    "tick_rate": 2,
+    "condition": {
+        "type": "origins:sprinting"
+    }
+}

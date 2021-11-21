@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"plague:heal",
+		"plague:summon",
+		"plague:neutral_mobs",
+		"plague:portable_brewing",
+		"plague:poisonous_spore",
+		"plague:immune",
+		"plague:effects",
+		"plague:speed"
+	],
+	"icon": "minecraft:potion",
+	"order": 10,
+	"impact": 3,
+	"name": "Plague Doctor",
+	"description": "The plague doctor from a time long ago that to this day stops the destruction of humanity by holding back all disease"
+}
