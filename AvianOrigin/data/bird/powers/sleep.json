@@ -4,4 +4,6 @@
       "type": "origins:height",
       "comparison": "<",
       "compare_to": 100
+    },
+    "hidden": true
 }

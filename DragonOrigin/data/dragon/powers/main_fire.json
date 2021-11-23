@@ -28,9 +28,6 @@
         ]
     },
     "cooldown": 300,
-	"condition": {
-	"type": "origins:and"
-	},
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",

@@ -1,0 +1,72 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  },
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 3
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:block.beacon.power_select player @a ~ ~ ~ 10 2"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 1,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "particle minecraft:end_rod ~ ~ ~ 8 8 8 0.55 1500"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "power grant @e[distance=0.1..25] thor:struck"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "power grant @e[distance=0.1..25] thor:struck_1"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 16,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "summon minecraft:end_crystal ~ ~ ~4"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 18,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "summon minecraft:end_crystal ~-2 ~ ~-2"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 20,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "summon minecraft:end_crystal ~ ~ ~4"
+        }
+      }
+    ]
+  },
+  "name": "Healing Crystals",
+  "description": "Summon 3 powerful magic crystals that heal you,but be careful as they explode when hit"
+}

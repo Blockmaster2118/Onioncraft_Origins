@@ -7,7 +7,9 @@
 		"plague:poisonous_spore",
 		"plague:immune",
 		"plague:effects",
-		"plague:speed"
+		"plague:speed",
+		"plague:no_shield",
+		"plague:dagger"
 	],
 	"icon": "minecraft:potion",
 	"order": 10,

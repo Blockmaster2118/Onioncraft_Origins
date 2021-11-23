@@ -8,7 +8,9 @@
 		"bird:feather_shot",
 		"bird:less",
 		"bird:sleep",
-		"bird:wings"
+		"bird:wings",
+		"bird:toggle",
+		"bird:jet"
 	],
 	"icon": "minecraft:feather",
 	"order": 10,

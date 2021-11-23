@@ -10,7 +10,8 @@
 		"dwarf:mech",
 		"dwarf:charge",
 		"dwarf:recharge",
-		"dwarf:craft"
+		"dwarf:craft",
+		"dwarf:less"
 	],
 	"icon": "minecraft:iron_pickaxe",
 	"order": 10,

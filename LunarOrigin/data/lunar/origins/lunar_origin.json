@@ -11,7 +11,8 @@
 		"lunar:fly",
 		"lunar:rain",
 		"lunar:night",
-		"lunar:no_sleep"
+		"lunar:no_sleep",
+		"lunar:no_shield"
 	],
 	"icon": "minecraft:end_stone",
 	"order": 10,

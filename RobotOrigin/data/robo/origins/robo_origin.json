@@ -4,7 +4,9 @@
 		"robo:laser",
 		"robo:aerial_motion",
 		"robo:overdrive",
-		"robo:shield"
+		"robo:shield",
+		"robo:explohurt",
+		"robo:explohurt2"
 	],
 	"icon": "minecraft:iron_block",
 	"order": 10,

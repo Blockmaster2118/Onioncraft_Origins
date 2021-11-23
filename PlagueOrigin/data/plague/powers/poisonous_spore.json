@@ -14,7 +14,7 @@
         "type": "origins:sneaking",
         "inverted": true
     },
-    "name": "",
-    "description": "",
+    "name": "Toxokinesis",
+    "description": "As an extension of you control over poisons, you can inflict these status effects on those around you.",
     "key": {"key":"key.saveToolbarActivator"}
 }

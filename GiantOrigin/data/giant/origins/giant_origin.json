@@ -8,11 +8,12 @@
 		"giant:armor",
 		"giant:titan",
 		"giant:charge",
-		"giant:recharge"
+		"giant:recharge",
+		"giant:effects"
 	],
 	"icon": "minecraft:dirt",
 	"order": 10,
 	"impact": 3,
 	"name": "Fluctuating Titan",
-	"description": "A titan with the rare ability, only appearing once every 100 years, to change size."
+	"description": "A titan with the rare ability, only appearing once every 1000 years, to change size."
 }

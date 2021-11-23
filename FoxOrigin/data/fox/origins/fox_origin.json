@@ -9,7 +9,8 @@
 		"fox:lightning_immunity",
 		"fox:spliting_gale",
 		"fox:speed2",
-		"fox:dodge"
+		"fox:no_shield",
+		"fox:less"
 	],
 	"icon": "minecraft:emerald",
 	"order": 10,

@@ -14,7 +14,8 @@
 		"space:god",
 		"space:phasing",
 		"space:teleport",
-		"space:star"
+		"space:star",
+		"space:no_shield"
 	],
 	"icon": "minecraft:crying_obsidian",
 	"order": 10,

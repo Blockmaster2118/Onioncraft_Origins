@@ -1,0 +1,9 @@
+{
+      "type":"origins:toggle",
+	  "active_by_default": false,
+      "key":{
+         "key":"key.pickItem",
+         "continuous":false
+      },
+	"hidden": true
+}

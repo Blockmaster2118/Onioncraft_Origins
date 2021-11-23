@@ -11,7 +11,7 @@
 		"cat:life_steal",
 		"cat:bigfist"
 	],
-	"icon": "minecraft:red_wool",
+	"icon": "minecraft:gray_wool",
 	"order": 10,
 	"impact": 3,
 	"unchoosable": true,

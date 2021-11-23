@@ -1,12 +1,12 @@
 {
-    "type": "origins:modify_damage_taken",
-    "modifier": {
-      "name": "Origin modifier",
-      "value": 0.5,
-      "operation": "multiply_base"
-    },
-    "damage_condition": {
-      "type": "origins:lightningBolt"
-    },
-    "hidden": true
-  }
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+     "type": "origins:name",
+     "name": "lightningBolt"
+ },
+  "modifier": {
+     "operation": "multiply_base",
+     "value": 0.5
+ },
+ "hidden": true
+}

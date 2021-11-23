@@ -10,6 +10,5 @@
         }
     },
     "interval": 1,
-    "name": "Large Stature",
-    "description": "As a titan you are far stronger and more resilient"
+    "hidden": true
 }

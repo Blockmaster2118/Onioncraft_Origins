@@ -15,10 +15,7 @@
 		"resource": "*:flame_resource",
 		"change": 1
     },
-    "interval": 10,
-	"condition": {
-	"type": "origins:and"
-	}
+    "interval": 10
 	},
 	
 	"death": {

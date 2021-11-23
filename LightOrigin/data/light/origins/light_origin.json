@@ -15,7 +15,8 @@
 		"light:speedbar",
 		"light:speedgain",
 		"light:speedlose",
-		"light:invis2"
+		"light:invis2",
+		"light:no_shield"
 	],
 	"icon": "minecraft:glowstone",
 	"order": 10,

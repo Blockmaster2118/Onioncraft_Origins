@@ -1,0 +1,19 @@
+{
+	"type": "origins:self_action_on_hit",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:regeneration",
+			"amplifier": 1,
+			"duration": 40
+		}
+	},
+	"cooldown": 10,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+		"bar_index": 5
+	},
+	"name": "Consume",
+	"description": "As a cannibal you heal when you eat others but as this is not natural for you you would heal far less than a vampire would"
+}

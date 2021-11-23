@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect":
+        {
+            "effect": "minecraft:slowness",
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    },
+    "interval": 1,
+    "name": "Large Stature",
+    "description": "As a titan you are far stronger and more resilient"
+}
