@@ -25,6 +25,7 @@
 	  "filcher:bouncy",
 	  "filcher:no_fall",
 	  "filcher:no_shield",
-	  "filcher:less"
+	  "filcher:less",
+	  "filcher:particles"
 	]
 }

@@ -10,7 +10,8 @@
 		"bird:sleep",
 		"bird:wings",
 		"bird:toggle",
-		"bird:jet"
+		"bird:jet",
+		"bird:particles"
 	],
 	"icon": "minecraft:feather",
 	"order": 10,

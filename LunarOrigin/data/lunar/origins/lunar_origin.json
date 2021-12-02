@@ -12,7 +12,9 @@
 		"lunar:rain",
 		"lunar:night",
 		"lunar:no_sleep",
-		"lunar:no_shield"
+		"lunar:no_shield",
+		"lunar:magic_blast",
+		"lunar:particles"
 	],
 	"icon": "minecraft:end_stone",
 	"order": 10,

@@ -16,7 +16,8 @@
 		"light:speedgain",
 		"light:speedlose",
 		"light:invis2",
-		"light:no_shield"
+		"light:no_shield",
+		"light:particles"
 	],
 	"icon": "minecraft:glowstone",
 	"order": 10,

@@ -7,7 +7,8 @@
 		"shadow:no_shield",
 		"shadow:backstab",
 		"shadow:invis",
-		"shadow:less"
+		"shadow:less",
+		"shadow:particles"
 	],
 	"icon": "minecraft:tinted_glass",
 	"order": 11,

@@ -17,7 +17,8 @@
 		"dragon:daybuff",
 		"dragon:lightning_immunity",
 		"dragon:thunder",
-		"dragon:food"
+		"dragon:food",
+		"dragon:particles"
 	],
 	"icon": "minecraft:magma_block",
 	"order": 10,

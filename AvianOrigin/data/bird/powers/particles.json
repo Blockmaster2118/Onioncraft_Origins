@@ -1,0 +1,17 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+
+			{
+				"type": "origins:execute_command",
+				"permisson_level": 4,
+				"command": "particle illuminations:goldenbar_aura ~ ~ ~ 1 1 1 0 1000"
+			}
+		]
+	},
+	"cooldown": 1,
+	"key": {"key":"key.spectatorOutlines"}
+
+}
